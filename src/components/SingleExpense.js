@@ -23,7 +23,7 @@ function SingleExpense(props) {
         </div>
         <div>
           <i className={`bi bi-${inputReadOnly ? "pencil" : "check-circle"}`} onClick={onClickEditHandle}></i>
-          <i className="bi bi-x-circle" onClick={props.removeExpense3}></i>
+          <i className="bi bi-x-circle" onClick={props.removeExpense}></i>
         </div>
       </div>
     </Card>

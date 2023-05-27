@@ -29,7 +29,7 @@ function AllExpenses(props) {
             <SingleExpense 
               data={expense}
               onEditHandle={e => onNameChangeHandle(e, index)} 
-              removeExpense3={props.removeExpense}
+              removeExpense={props.removeExpense}
             />
           </Card>
         )
