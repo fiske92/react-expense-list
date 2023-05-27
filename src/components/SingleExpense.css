@@ -1,0 +1,47 @@
+.card__expense-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__expense-info input {
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    outline: none;
+    width: 150px;
+}
+
+.card.active .card__expense-info input {
+    border-color: #000;
+    background-color: #fff;
+}
+
+.card .card__expense-info .card__expense-info__data {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10px 0 0;
+}
+
+@media (max-width: 575.98px) {
+    .card .card__expense-info .card__expense-info__data {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.bi:hover {
+    cursor: pointer;
+}
+
+.bi-check-circle {
+    color: green;
+}
+
+.bi-x-circle {
+    color: red;
+    margin-left: 10px;
+}
