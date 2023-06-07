@@ -26,8 +26,6 @@ function App() {
   }
 
   const removeExpenseItem = (index) => {
-    console.log('test')
-
     const updatedExpenses = [...expenses];
     updatedExpenses.splice(index, 1);
 
