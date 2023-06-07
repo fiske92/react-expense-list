@@ -31,7 +31,6 @@ function App() {
 
     localStorage.setItem('expense-items', JSON.stringify(updatedExpenses));
     setExpenses(updatedExpenses);
-
   }
 
   return (
